@@ -1,4 +1,4 @@
-name: Post welcome comment!
+name: Post welcome comment
 on:
   pull_request:
     types: [opened]
@@ -8,6 +8,3 @@ jobs:
   build:
     name: Post welcome comment
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
