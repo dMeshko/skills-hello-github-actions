@@ -9,4 +9,5 @@ jobs:
     name: Post welcome comment
     runs-on: ubuntu-latest
     steps:
-      - name: ShellCheck
+      - name: Checkout
+        uses: actions/checkout@v3
